@@ -1,0 +1,263 @@
+﻿@model IEnumerable<Clinic.Models.CCMModel.CCMModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        Clinic
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Home/Dashboard"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li class="active"><a href="/Clinic/Index">CCM Note</a></li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="box box-primary">
+        <div class="box-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-primary btn-flat pull-right" onclick='AddNewCCMNote()'>New</button>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="" id="CCMNoteID" method="post" action="/CCM/SaveCCMDetails">
+        <div class="box-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">CCM Status :  </h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-md-2">
+                                        <button type="button" onclick="getCCMNoteDescription(@item.CCMNoteID)" style="width:170px;" class="btn bg-maroon btn-flat margin">@item.CCMNoteText</button>
+                                    </div>
+                                }
+                            </div>
+                            <div class="row" id="CCMNoteDescriptionDiv">
+                                <input type="hidden" id="HdnDescription" />
+                                <div class="col-md-12" id="DivDes">
+                                    <br />
+                                    <textarea class="form-control" id="Description" rows="3"></textarea><br />
+                                    <button type="button" class="btn btn-default pull-right">Delete</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class=" input-group date">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                        <input type="text" class="form-control pull-right" id="CCMdatepicker">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <input type="text" id="CCMTimepicker" class="form-control timepicker">
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <label>Min Spent:</label>
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control" id="inputTimeSpent">
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" id="chkBillable" name="chkBillable" class="checkbox_check"> Billable
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" id="chkInitiatinVisit" class="chkInitiatinVisit_check"> Initiating Visit
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="button" onclick="SaveCCMNotesDetails()" class="btn btn-primary pull-right">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+<div class="modal" id="AddNewNoteModel" style="display: none">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Add CCM Note</h4>
+            </div>
+            <div class="modal-body" style="max-height: 250px; height: 460px; overflow-y: auto;" id="AddNewNoteFormDiv">
+                @Html.Action("AddNewNoteForm");
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Validation/validation.js"></script>
+<script src="~/Scripts/utility/error.js"></script>
+<script src="~/Scripts/utility/common.js"></script>
+<script src="~/plugins/notification/notify.js"></script>
+<script>
+    //Code added for Timer (StopWatch) display in Textbox
+    var seconds = 0, minutes = 0, hours = 0, t;
+    function add() {
+        seconds++;
+        if (seconds >= 60) {
+            seconds = 0;
+            minutes++;
+            if (minutes >= 60) {
+                minutes = 0;
+                hours++;
+            }
+        }
+
+        $("#inputTimeSpent").val((hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds));
+        timer();
+    }
+    function timer() {
+        t = setTimeout(add, 1000);
+    }
+    timer();
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        applyTriggerNotify();
+
+        var fullDate = new Date()
+
+        var twoDigitMonth = ((fullDate.getMonth().length + 1) === 1) ? (fullDate.getMonth() + 1) : '0' + (fullDate.getMonth() + 1);
+
+        var currentDate = fullDate.getDate() + "/" + twoDigitMonth + "/" + fullDate.getFullYear();
+
+        $('#CCMdatepicker').val(currentDate);
+
+    });
+
+    function GetParameterValues(param) {
+        var url = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < url.length; i++) {
+            var urlparam = url[i].split('=');
+            if (urlparam[0] == param) {
+                return urlparam[1];
+            }
+        }
+    }
+
+    $('#CCMdatepicker').datepicker({
+        Format: 'dd/mm/yy',
+        autoclose: true
+    });
+
+    $(".timepicker").timepicker({
+        showInputs: false
+    });
+
+
+    function SaveCCMNotesDetails() {
+        clearTimeout(t);
+    }
+
+    function AddNewCCMNote() {
+        $("#AddNewNoteModel").modal("show");
+    }
+
+    function SaveCCMNotesDetails() {
+        debugger;
+        var datepicker = $("#CCMdatepicker").val();
+        var timepicker = $("#CCMTimepicker").val();
+        var inputTimeSpent = $("#inputTimeSpent").val();
+        var HdnDescription = $("#HdnDescription").val();
+        var PatientId = GetParameterValues('PatientId');
+        var IsBillable;
+        var IsInitiatinVisit;
+        if ($('input.checkbox_check').is(':checked')) {
+            IsBillable = true;
+        } else {
+            IsBillable = false;
+        }
+
+        if ($('input.chkInitiatinVisit_check').is(':checked')) {
+            IsInitiatinVisit = true;
+        } else {
+            IsInitiatinVisit = false;
+        }
+
+        $.ajax({
+            url: '/CCM/SaveCCMDetails',
+            type: 'POST',
+            data: { 'PatientId': PatientId, 'datepicker': datepicker, 'timepicker': timepicker, 'inputTimeSpent': inputTimeSpent, 'HdnDescription': HdnDescription, 'IsBillable': IsBillable, 'IsInitiatinVisit': IsInitiatinVisit },
+            cache: false,
+            async: false,
+            success: function (data) {
+                window.location.href = "/Patient/PatientIndividualProfile?PatientID=" + PatientId;
+            }
+        });
+    }
+
+    function SaveAddNewNoteDetails() {
+        if ($("#CCMNoteText").val() == "") {
+            $.notify("Please enter ccm title", "error");
+        } else {
+            if ($("#CCMNoteDescrption").val() == "") {
+                $.notify("Please enter ccm description", "error");
+            } else {
+                $("#AddNewNoteFormID").submit();
+            }
+        }
+    }
+
+    function getCCMNoteDescription(CCMNoteID) {
+        $("#DivDes").remove();
+        $.ajax({
+            type: "POST",
+            url: "/CCM/getCCMNoteDescription",
+            data: JSON.stringify({ 'ID': CCMNoteID }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                $("#HdnDescription").val($("#HdnDescription").val() + ',' + response);
+                console.log($("#HdnDescription").val());
+                var duvelement = "<div class='col-md-12' id='CCMDescription" + CCMNoteID + "'><br /><textarea class='form-control' id='Description" + CCMNoteID + "'  rows='3'>" + response + "</textarea><br /><button type='button' onclick='deleteCCMNoteDescription(" + CCMNoteID + ")' class='btn btn-default pull-right'>Delete</button></div>";
+                $("#CCMNoteDescriptionDiv").append(duvelement);
+            },
+            failure: function (response) {
+            },
+            error: function (response) {
+            }
+        });
+    }
+
+    function deleteCCMNoteDescription(CCMNoteID) {
+        var deletediv = '#CCMDescription' + CCMNoteID;
+        $(deletediv).remove();
+    }
+</script>

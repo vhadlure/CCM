@@ -1,0 +1,36 @@
+﻿@model Clinic.Models.ClinicModel.ClinicModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        Clinic
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Home/Dashboard"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li class="active"><a href="/Clinic/Index">Clinic</a></li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="box box-primary">
+        <div class="col-md-3 pull-right">
+            <div class="input-group margin">
+                <input type="text" class="form-control" id="filter">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary btn-flat" type="button" title="Type to search"><i class="fa fa-fw fa-search"></i></button>
+                </span>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-flat pull-right" onclick="RegisterNewClinic();" style="margin: 8px 0px 0px 10px;">New</button>
+        <div class="clearfix"></div>
+        <div class="box-body">
+            <table id="clinicListGrid"></table>
+        </div>
+    </div>
+</section>
+<script src="~/js/Client.js" type="text/javascript"></script>
+
+

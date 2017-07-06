@@ -1,0 +1,58 @@
+﻿@model Clinic.Models.PatientModel.PatientModel
+<form class="form-horizontal" id="AddNewMedicationFormID" action="/Patient/SaveMedicationDetails" method="post">
+    <div class="box-body">
+        <div class="form-group">
+            @Html.HiddenFor(model => model.PatientID)
+            <label for="inputEmail3" class="col-sm-2 control-label">Name<span class="red"> *</span></label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.MedicationName, new { @class = "form-control ", placeholder = "Medication Name" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Description<span class="red"> *</span></label>
+            <div class="col-sm-10">
+                @Html.TextAreaFor(model => model.MedicationDescription, new { @class = "form-control ", placeholder = "Medication Description" })
+            </div>
+        </div>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+        <button type="button" class="btn btn-info pull-right" onclick="SaveAddNewMedicationDetails();">Add</button>
+    </div>
+    <!-- /.box-footer -->
+</form>
+
+<script type="text/javascript">
+    //function SaveAddNewMedicationDetails() {
+    //    if ($("#MedicationName").val() == "") {
+    //        $.notify("Please enter medication name", "error");
+    //    } else {
+    //        if ($("#MedicationDescription").val() == "") {
+    //            $.notify("Please enter medication description", "error");
+    //        } else {
+    //            $("#AddNewMedicationFormID").submit();
+    //        }
+    //    }
+    //}
+
+    //$("#AddNewMedicationFormID").submit(function (e) {
+    //    showLoader();
+    //    var postData = $(this).serializeArray();
+    //    var formURL = $(this).attr("action");
+    //    $.ajax(
+    //    {
+    //        url: formURL,
+    //        type: "POST",
+    //        data: postData,
+    //        success: function (message, textStatus, jqXHR) {
+    //            hideLoader();
+    //            $.notify("Medication saved successfully", "success");
+    //            $(':input').not(':button, :submit, :reset, select').val('');
+    //            $("#AddMedicationModel").modal("hide");
+    //        },
+    //        error: function (jqXHR, textStatus, errorThrown) {
+    //        }
+    //    });
+    //    e.preventDefault(); //STOP default action
+    //});
+</script>

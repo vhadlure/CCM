@@ -1,0 +1,60 @@
+﻿@model Clinic.Models.PatientModel.PatientModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        Patient
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li class="">Patient</li>
+        <li class="active">Add Patient</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="box box-primary">
+        <div class="col-md-3 pull-right">
+            <div class="input-group margin">
+                <input type="text" class="form-control" id="filter">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary btn-flat" type="button" title="Type to search"><i class="fa fa-fw fa-search"></i></button>
+                </span>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-flat pull-right" onclick="AddNewPatient();" style="margin: 8px 0px 0px 10px;">New</button>
+        <div class="clearfix"></div>
+        <div class="box-body">
+            <table id="patientListGrid"></table>
+        </div>
+    </div>
+</section>
+<script src="~/js/PatientList.js"></script>
+
+<script type="text/javascript">
+   
+    function add() {
+        seconds++;
+        if (seconds >= 60) {
+            seconds = 0;
+            minutes++;
+            if (minutes >= 60) {
+                minutes = 0;
+                hours++;
+            }
+        }
+
+        h1.textContent = (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
+
+        timer();
+    }
+    function timer() {
+        t = setTimeout(add, 1000);
+    }
+    timer();
+</script>
+
+

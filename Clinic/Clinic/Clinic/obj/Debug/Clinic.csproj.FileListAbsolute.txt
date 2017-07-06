@@ -1,0 +1,220 @@
+F:\Clinic\Clinic\bin\Clinic.dll.config
+F:\Clinic\Clinic\bin\Clinic.dll
+F:\Clinic\Clinic\bin\Clinic.pdb
+F:\Clinic\Clinic\bin\Antlr3.Runtime.dll
+F:\Clinic\Clinic\bin\EntityFramework.dll
+F:\Clinic\Clinic\bin\EntityFramework.SqlServer.dll
+F:\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Clinic\Clinic\bin\Microsoft.Web.Infrastructure.dll
+F:\Clinic\Clinic\bin\Newtonsoft.Json.dll
+F:\Clinic\Clinic\bin\Owin.dll
+F:\Clinic\Clinic\bin\System.Web.Helpers.dll
+F:\Clinic\Clinic\bin\System.Web.Mvc.dll
+F:\Clinic\Clinic\bin\System.Web.Optimization.dll
+F:\Clinic\Clinic\bin\System.Web.Razor.dll
+F:\Clinic\Clinic\bin\System.Web.WebPages.Deployment.dll
+F:\Clinic\Clinic\bin\System.Web.WebPages.dll
+F:\Clinic\Clinic\bin\System.Web.WebPages.Razor.dll
+F:\Clinic\Clinic\bin\WebGrease.dll
+F:\Clinic\Clinic\bin\System.Web.Helpers.xml
+F:\Clinic\Clinic\bin\System.Web.Mvc.xml
+F:\Clinic\Clinic\bin\System.Web.Optimization.xml
+F:\Clinic\Clinic\bin\System.Web.Razor.xml
+F:\Clinic\Clinic\bin\System.Web.WebPages.xml
+F:\Clinic\Clinic\bin\System.Web.WebPages.Deployment.xml
+F:\Clinic\Clinic\bin\System.Web.WebPages.Razor.xml
+F:\Clinic\Clinic\bin\Antlr3.Runtime.pdb
+F:\Clinic\Clinic\bin\Newtonsoft.Json.xml
+F:\Clinic\Clinic\bin\EntityFramework.xml
+F:\Clinic\Clinic\bin\EntityFramework.SqlServer.xml
+F:\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Clinic\Clinic\obj\Debug\Clinic.dll
+F:\Clinic\Clinic\obj\Debug\Clinic.pdb
+F:\Clinic\Clinic\obj\Debug\Clinic.csprojResolveAssemblyReference.cache
+D:\Clinic\Clinic\Clinic\bin\Clinic.dll.config
+D:\Clinic\Clinic\Clinic\bin\Clinic.dll
+D:\Clinic\Clinic\Clinic\bin\Clinic.pdb
+D:\Clinic\Clinic\Clinic\bin\Antlr3.Runtime.dll
+D:\Clinic\Clinic\Clinic\bin\EntityFramework.dll
+D:\Clinic\Clinic\Clinic\bin\EntityFramework.SqlServer.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Web.Infrastructure.dll
+D:\Clinic\Clinic\Clinic\bin\Newtonsoft.Json.dll
+D:\Clinic\Clinic\Clinic\bin\Owin.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.Helpers.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.Mvc.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.Optimization.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.Razor.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Deployment.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.WebPages.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Razor.dll
+D:\Clinic\Clinic\Clinic\bin\WebGrease.dll
+D:\Clinic\Clinic\Clinic\bin\System.Web.Helpers.xml
+D:\Clinic\Clinic\Clinic\bin\System.Web.Mvc.xml
+D:\Clinic\Clinic\Clinic\bin\System.Web.Optimization.xml
+D:\Clinic\Clinic\Clinic\bin\System.Web.Razor.xml
+D:\Clinic\Clinic\Clinic\bin\System.Web.WebPages.xml
+D:\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Deployment.xml
+D:\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Razor.xml
+D:\Clinic\Clinic\Clinic\bin\Antlr3.Runtime.pdb
+D:\Clinic\Clinic\Clinic\bin\Newtonsoft.Json.xml
+D:\Clinic\Clinic\Clinic\bin\EntityFramework.xml
+D:\Clinic\Clinic\Clinic\bin\EntityFramework.SqlServer.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Clinic\Clinic\Clinic\obj\Debug\Clinic.csprojResolveAssemblyReference.cache
+D:\Clinic\Clinic\Clinic\obj\Debug\Clinic.dll
+D:\Clinic\Clinic\Clinic\obj\Debug\Clinic.pdb
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Clinic.dll.config
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Clinic.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Clinic.pdb
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Antlr3.Runtime.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.SqlServer.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Web.Infrastructure.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Newtonsoft.Json.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Owin.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Helpers.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Mvc.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Optimization.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Razor.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Deployment.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Razor.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\WebGrease.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Helpers.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Mvc.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Optimization.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Razor.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Deployment.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Razor.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Antlr3.Runtime.pdb
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Newtonsoft.Json.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.SqlServer.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Clinic (2)\Clinic\Clinic\Clinic\obj\Debug\Clinic.csprojResolveAssemblyReference.cache
+F:\Clinic (2)\Clinic\Clinic\Clinic\obj\Debug\Clinic.dll
+F:\Clinic (2)\Clinic\Clinic\Clinic\obj\Debug\Clinic.pdb
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Clinic.dll.config
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Clinic.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Clinic.pdb
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Antlr3.Runtime.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.SqlServer.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Web.Infrastructure.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Newtonsoft.Json.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Owin.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Helpers.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Mvc.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Optimization.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Razor.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Deployment.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Razor.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\WebGrease.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Helpers.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Mvc.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Optimization.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.Razor.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Deployment.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\System.Web.WebPages.Razor.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Antlr3.Runtime.pdb
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Newtonsoft.Json.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\EntityFramework.SqlServer.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Google.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\obj\Debug\Clinic.dll
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\obj\Debug\Clinic.pdb
+D:\Clinic (2)\Clinic (2)\Clinic\Clinic\Clinic\obj\Debug\Clinic.csprojResolveAssemblyReference.cache

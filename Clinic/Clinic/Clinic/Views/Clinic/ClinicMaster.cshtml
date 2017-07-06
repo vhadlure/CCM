@@ -1,0 +1,26 @@
+﻿@model Clinic.Models.ClinicModel.ClinicModel
+
+@{
+    ViewBag.Title = "ClinicMaster";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        Clinic
+        <small>Add Clinic</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Home/Dashboard"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li class=""><a href="/Clinic/Index">Clinic</a></li>
+        <li class="active">Add Clinic</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="box box-primary">
+        <div></div>
+        <div id="ClientMasterFormDiv">
+            @{Html.RenderPartial("ClinicMasterForm");}
+        </div>
+    </div>
+</section>
+
